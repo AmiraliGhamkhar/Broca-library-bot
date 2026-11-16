@@ -1,0 +1,27 @@
+{
+  "name": "broca-library-bot",
+  "version": "1.0.0",
+  "description": "Production-ready Digital Library Telegram Bot natively deployed on Telegram Serverless (@tgcloud)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "status": "tgcloud status",
+    "push": "tgcloud push",
+    "deploy": "tgcloud push",
+    "migrate": "tgcloud migrate",
+    "run": "tgcloud run",
+    "test": "node --test test/*.test.js"
+  },
+  "devDependencies": {
+    "@tgcloud/cli": "^0.2.0"
+  },
+  "keywords": [
+    "telegram",
+    "telegram-bot",
+    "serverless",
+    "tgcloud",
+    "digital-library"
+  ],
+  "author": "Broca Library Team",
+  "license": "MIT"
+}
